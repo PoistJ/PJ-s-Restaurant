@@ -1,1 +1,4 @@
-console.log("Hello World!");
+import { loadHome } from "./home.js";
+import "./styles.css";
+
+loadHome();
