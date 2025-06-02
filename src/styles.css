@@ -1,8 +1,28 @@
+html, body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    flex: auto;
+    background-color: #90e0ef;
+}
+
 #content {
     background-image: url("splash.jpg");
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }  
 
 nav {
     display: flex;
     justify-content: center;
 }
+
