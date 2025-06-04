@@ -97,7 +97,7 @@ export function loadHome() {
 
     const hoursInfo = document.createElement("div");
     hoursInfo.innerHTML =
-        "Monday - Thursday: 9am - 10pm<br />Friday - Saturday: 9am - 11pm<br    />Sunday: 10am - 7pm";
+        "Monday - Thursday: 9am - 10pm<br />Friday - Saturday: 9am - 11pm<br />Sunday: 10am - 7pm";
     hoursInfo.style.color = "white";
     hoursInfo.style.alignSelf = "center";
     hoursInfo.style.textAlign = "center";
