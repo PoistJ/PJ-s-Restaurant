@@ -37,6 +37,7 @@ export function loadHome() {
     headline.style.color = "white";
     headline.style.fontSize = "2.5em";
     headline.style.margin = "20px";
+    headline.style.textAlign = "center";
     headerDiv.appendChild(headline);
 
     const rightRamenImg = document.createElement("img");
