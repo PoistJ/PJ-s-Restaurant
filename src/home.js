@@ -55,7 +55,7 @@ export function loadHome() {
     sloganDiv.style.borderWidth = "10px";
     sloganDiv.style.borderColor = "#caf0f8";
     sloganDiv.style.margin = "20px";
-    sloganDiv.style.flex = "auto";
+    sloganDiv.style.flex = "0 1 auto";
     solidBack.appendChild(sloganDiv);
 
     const slogan = document.createElement("div");
@@ -85,7 +85,7 @@ export function loadHome() {
     hoursDiv.style.width = "60%";
     hoursDiv.style.display = "flex";
     hoursDiv.style.flexDirection = "column";
-    hoursDiv.style.flex = "auto";
+    hoursDiv.style.flex = "0 1 auto";
     hoursDiv.style.margin = "20px";
     solidBack.appendChild(hoursDiv);
 
@@ -103,7 +103,7 @@ export function loadHome() {
     hoursInfo.style.alignSelf = "center";
     hoursInfo.style.textAlign = "center";
     hoursInfo.style.fontSize = "1.5em";
-    hoursInfo.style.margin = "10px";
+    hoursInfo.style.margin = "20px";
     hoursInfo.style.flex = "auto";
     hoursDiv.appendChild(hoursInfo);
 };
